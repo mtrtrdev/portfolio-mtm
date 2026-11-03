@@ -8,7 +8,7 @@ export const profileData: Profile = {
   location: "TOKYO, JAPAN [UTC+9]",
   statement:
     "Architecting scalable cloud infrastructure, production generative AI integrations, and resilient web systems with enterprise-grade engineering rigor.",
-  bio: "クラウド基盤（AWS / Azure）および生成AIモデル連携（Azure OpenAI / AWS Bedrock / Vertex AI）の実践的な開発・運用経験を持つエンジニア。PHPやPythonによるAPI・Webバックエンド開発から、Linuxサーバー構築、データベース設計、フロントエンドUI実装まで、システムを一気通貫で設計・構築します。",
+  bio: "クラウド基盤（AWS / Azure）および生成AIモデル連携（Azure OpenAI / AWS Bedrock / Vertex AI）の開発・運用経験を持つエンジニア。PHPやPythonによるバックエンド開発から、Linuxサーバー構築、データベース設計、フロントエンドUI実装まで幅広く関わっています。エンジニアとしてのバックグラウンドや、個人開発・技術検証の取り組みについてまとめています。",
   socials: {
     github: "https://github.com/mtrtrdev",
     qiita: "https://qiita.com/motorola",

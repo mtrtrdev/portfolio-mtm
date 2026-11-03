@@ -19,14 +19,14 @@ export function ProjectsSection() {
           <div>
             <div className="flex items-center gap-2 font-mono-ny text-xs text-yellow-400 mb-2">
               <span>[01]</span>
-              <span>WORKS</span>
+              <span>PROJECTS</span>
             </div>
             <h2 className="font-serif-ny text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
-              制作実績
+              個人開発・技術検証
             </h2>
           </div>
           <p className="font-mono-ny text-xs text-zinc-400 max-w-sm">
-            プロダクト開発、ランディングページ、Webアプリケーションの実績。
+            個人開発で制作したWebアプリケーションや、技術検証のプロジェクト。
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export function ProjectsSection() {
                 <div className="flex items-center justify-between px-6 py-4 border-b border-white/10 font-mono-ny text-xs text-zinc-400 bg-zinc-950/80">
                   <div className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse" />
-                    <span className="text-yellow-400 font-bold">[FEATURED // 01]</span>
+                    <span className="text-yellow-400 font-bold">[PROJECT // 01]</span>
                     <span className="uppercase text-[11px] tracking-widest text-zinc-300">
                       {project.category}
                     </span>
@@ -76,7 +76,7 @@ export function ProjectsSection() {
                       <div className="flex items-start justify-between gap-4">
                         <div>
                           <p className="font-mono-ny text-[11px] text-yellow-400 tracking-widest uppercase mb-1">
-                            Featured Project
+                            Personal Project
                           </p>
                           <h3 className="font-serif-ny text-2xl sm:text-3xl text-white group-hover:text-yellow-400 transition-colors leading-snug">
                             {project.title}
@@ -123,7 +123,7 @@ export function ProjectsSection() {
                             onClick={(e) => e.stopPropagation()}
                             className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400 hover:bg-yellow-300 text-black text-xs font-mono-ny font-medium uppercase tracking-wider transition-all shadow-sm"
                           >
-                            <span>Live Site</span>
+                            <span>Live Demo</span>
                             <ArrowUpRight size={14} />
                           </a>
                         )}

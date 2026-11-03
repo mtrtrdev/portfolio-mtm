@@ -21,14 +21,10 @@ export function Header() {
           </a>
         </div>
 
-        {/* Location & Availability Status */}
-        <div className="hidden md:flex items-center gap-3 font-mono-ny text-[11px] text-zinc-400">
-          <span className="text-zinc-400">TOKYO [UTC+9]</span>
-          <span className="text-zinc-700">|</span>
-          <div className="flex items-center gap-2 text-emerald-400">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span>AVAILABLE</span>
-          </div>
+        {/* Location & Timezone */}
+        <div className="hidden md:flex items-center gap-2 font-mono-ny text-[11px] text-zinc-400">
+          <span className="w-1.5 h-1.5 rounded-full bg-zinc-500" />
+          <span>TOKYO, JAPAN [UTC+9]</span>
         </div>
 
         {/* Navigation & Links */}
@@ -37,7 +33,7 @@ export function Header() {
             href="#projects"
             className="text-zinc-400 hover:text-yellow-400 transition-colors uppercase"
           >
-            Works
+            Projects
           </a>
           <a
             href="#skills"

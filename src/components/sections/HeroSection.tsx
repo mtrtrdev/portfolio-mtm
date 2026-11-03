@@ -45,7 +45,7 @@ export function HeroSection() {
               href="#projects"
               className="inline-flex items-center gap-3 px-6 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold uppercase tracking-wider transition-all duration-200 group"
             >
-              <span>制作実績を見る</span>
+              <span>プロジェクトを見る</span>
               <ArrowDownRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1 group-hover:translate-y-1"
