@@ -18,11 +18,11 @@ export function ProjectsSection() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-16 border-b border-white/10 pb-8">
           <div>
             <div className="flex items-center gap-2 font-mono-ny text-xs text-yellow-400 mb-2">
-              <span>[INDEX // 02]</span>
-              <span>FEATURED PRODUCTION</span>
+              <span>[01]</span>
+              <span>WORKS</span>
             </div>
             <h2 className="font-serif-ny text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
-              Selected Works
+              制作実績
             </h2>
           </div>
           <p className="font-mono-ny text-xs text-zinc-400 max-w-sm">

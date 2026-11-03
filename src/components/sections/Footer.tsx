@@ -23,14 +23,14 @@ export function Footer() {
               </span>
             </div>
             <p className="text-zinc-400 text-xs sm:text-sm font-light max-w-md">
-              Designed with New York architectural precision. Engineered with Next.js, TypeScript, and Three.js for Vercel edge deployment.
+              Next.js, TypeScript, Three.js を用いて構築し、Vercel 上で運用しています。
             </p>
           </div>
 
           {/* Col 2: Socials & External Links */}
           <div className="md:col-span-3 space-y-4">
             <h4 className="font-mono-ny text-xs text-yellow-400 uppercase tracking-widest">
-              Channels // Socials
+              Links / Socials
             </h4>
             <ul className="space-y-2.5 font-mono-ny text-xs">
               <li>

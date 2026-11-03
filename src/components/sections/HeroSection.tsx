@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="flex items-center gap-3">
           <span className="text-yellow-400 font-bold">[001]</span>
           <span className="uppercase tracking-widest text-zinc-300">
-            PORTFOLIO // VOL. 2026
+            PORTFOLIO 2026
           </span>
         </div>
         <div className="flex items-center gap-6">
@@ -23,8 +23,8 @@ export function HeroSection() {
       {/* Main Massive Editorial Typography */}
       <div className="my-auto py-12 sm:py-20">
         <div className="space-y-2 sm:space-y-4">
-          <p className="font-mono-ny text-xs sm:text-sm tracking-[0.3em] uppercase text-yellow-400">
-            INTERACTIVE SYSTEM ARCHITECTURE
+          <p className="font-mono-ny text-xs sm:text-sm tracking-[0.25em] uppercase text-yellow-400">
+            FULL-STACK & CLOUD / GENERATIVE AI
           </p>
           <h1 className="font-serif-ny text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-normal text-white tracking-tight leading-[0.95]">
             ENGINEERING
@@ -45,7 +45,7 @@ export function HeroSection() {
               href="#projects"
               className="inline-flex items-center gap-3 px-6 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold uppercase tracking-wider transition-all duration-200 group"
             >
-              <span>Explore Works</span>
+              <span>制作実績を見る</span>
               <ArrowDownRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1 group-hover:translate-y-1"
@@ -55,7 +55,7 @@ export function HeroSection() {
               href="#about"
               className="inline-flex items-center px-6 py-4 border border-white/15 hover:border-white text-zinc-300 hover:text-white uppercase tracking-wider transition-colors"
             >
-              About Profile
+              プロフィール
             </a>
           </div>
         </div>
@@ -63,7 +63,7 @@ export function HeroSection() {
 
       {/* Bottom Industrial Strip */}
       <div className="flex items-center justify-between pt-6 border-t border-white/10 font-mono-ny text-[10px] text-zinc-500 uppercase tracking-widest">
-        <span>THREE.JS PARTICLE ENGINE ACTIVE</span>
+        <span>THREE.JS CANVAS BACKGROUND</span>
         <span className="flex items-center gap-2">
           <span>SCROLL DOWN</span>
           <span className="animate-bounce">↓</span>

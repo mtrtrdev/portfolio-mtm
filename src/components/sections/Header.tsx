@@ -1,36 +1,10 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { profileData } from "@/data/profile";
 import { GithubIcon, QiitaIcon } from "@/components/ui/Icons";
 
 export function Header() {
-  const [time, setTime] = useState({ tokyo: "--:--", nyc: "--:--" });
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      setTime({
-        tokyo: now.toLocaleTimeString("en-US", {
-          timeZone: "Asia/Tokyo",
-          hour12: false,
-          hour: "2-digit",
-          minute: "2-digit",
-        }),
-        nyc: now.toLocaleTimeString("en-US", {
-          timeZone: "America/New_York",
-          hour12: false,
-          hour: "2-digit",
-          minute: "2-digit",
-        }),
-      });
-    };
-
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <header className="sticky top-0 z-40 w-full border-b border-white/10 bg-[#09090b]/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -43,25 +17,17 @@ export function Header() {
             <span className="w-2.5 h-2.5 bg-yellow-400 inline-block transition-transform group-hover:scale-125" />
             <span className="font-bold">{profileData.initials}</span>
             <span className="text-zinc-600">//</span>
-            <span className="text-zinc-400 text-xs hidden sm:inline">STUDIO ARCHIVE</span>
+            <span className="text-zinc-400 text-xs hidden sm:inline">PORTFOLIO</span>
           </a>
         </div>
 
-        {/* World Clocks (NY Industrial Details) */}
-        <div className="hidden md:flex items-center gap-6 font-mono-ny text-[11px] text-zinc-400">
-          <div className="flex items-center gap-2">
-            <span className="text-zinc-500">NYC</span>
-            <span className="text-zinc-200">{time.nyc}</span>
-          </div>
-          <span className="text-zinc-700">|</span>
-          <div className="flex items-center gap-2">
-            <span className="text-zinc-500">TYO</span>
-            <span className="text-zinc-200">{time.tokyo}</span>
-          </div>
+        {/* Location & Availability Status */}
+        <div className="hidden md:flex items-center gap-3 font-mono-ny text-[11px] text-zinc-400">
+          <span className="text-zinc-400">TOKYO [UTC+9]</span>
           <span className="text-zinc-700">|</span>
           <div className="flex items-center gap-2 text-emerald-400">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span>AVAILABLE FOR BUILD</span>
+            <span>AVAILABLE</span>
           </div>
         </div>
 
