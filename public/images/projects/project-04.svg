@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#08080a"/>
+  
+  <!-- Terminal Window Simulation -->
+  <rect x="140" y="110" width="520" height="270" rx="6" fill="#0e0f14" stroke="#27272a" stroke-width="1"/>
+  <rect x="140" y="110" width="520" height="30" rx="6" fill="#14151b" stroke="#27272a" stroke-width="1"/>
+  <circle cx="160" cy="125" r="4" fill="#ef4444"/>
+  <circle cx="175" cy="125" r="4" fill="#facc15"/>
+  <circle cx="190" cy="125" r="4" fill="#22c55e"/>
+  <text x="400" y="130" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10">vortex-cli — bash — 80x24</text>
+
+  <!-- Terminal Text / Ascii Output -->
+  <text x="170" y="175" fill="#facc15" font-family="'Courier New', monospace" font-size="12">$ vortex audit --url https://app.target.internal</text>
+  <text x="170" y="205" fill="#22c55e" font-family="'Courier New', monospace" font-size="12">✔ [PERF] Core Web Vitals : LCP 1.1s (GOOD)</text>
+  <text x="170" y="230" fill="#22c55e" font-family="'Courier New', monospace" font-size="12">✔ [A11Y] Accessibility   : Score 100/100</text>
+  <text x="170" y="255" fill="#facc15" font-family="'Courier New', monospace" font-size="12">ℹ [TRACE] Bundle Analysis: 42.8 KB (-18%)</text>
+  <text x="170" y="285" fill="#a1a1aa" font-family="'Courier New', monospace" font-size="11">─── PIPELINE REPORT READY ──────────────────</text>
+  <text x="170" y="315" fill="#ffffff" font-family="'Courier New', monospace" font-size="12">SUCCESS: All regression guards passed in 842ms</text>
+  <rect x="170" y="335" width="8" height="14" fill="#facc15"/>
+
+  <!-- Editorial Typography -->
+  <text x="50" y="80" fill="#ffffff" font-family="'Courier New', monospace" font-size="12" letter-spacing="4">PROJECT.04 // COMMAND LINE TOOL</text>
+  <text x="50" y="440" fill="#fafafa" font-family="'Times New Roman', serif" font-size="28">Vortex Metrics CLI</text>
+  <text x="750" y="440" text-anchor="end" fill="#facc15" font-family="'Courier New', monospace" font-size="12">LIGHTHOUSE API // CI AUTOMATION</text>
+</svg>
+

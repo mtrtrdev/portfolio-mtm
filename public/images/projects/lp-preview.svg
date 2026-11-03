@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0b0c10"/>
+  <defs>
+    <radialGradient id="lpglow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b0c10" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lpgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#lpgrid)" />
+  <rect width="800" height="500" fill="url(#lpglow)" />
+
+  <!-- Browser Frame Simulation -->
+  <g transform="translate(100, 70)">
+    <!-- Browser window -->
+    <rect width="600" height="360" rx="8" fill="#12131a" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <!-- Top tab bar -->
+    <rect width="600" height="36" rx="8" fill="#181922" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="20" cy="18" r="4.5" fill="#ef4444"/>
+    <circle cx="36" cy="18" r="4.5" fill="#facc15"/>
+    <circle cx="52" cy="18" r="4.5" fill="#22c55e"/>
+
+    <!-- URL bar -->
+    <rect x="90" y="8" width="420" height="20" rx="4" fill="#0b0c10" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="200" y="22" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="9">https://campaign.brand.io/lp</text>
+
+    <!-- LP Hero Content Inside Frame -->
+    <!-- Nav in LP -->
+    <text x="30" y="65" fill="#ffffff" font-family="'Times New Roman', serif" font-weight="bold" font-size="14">STUDIO</text>
+    <rect x="490" y="52" width="80" height="20" rx="2" fill="#facc15"/>
+    <text x="530" y="66" text-anchor="middle" fill="#000000" font-family="sans-serif" font-weight="bold" font-size="9">CONTACT</text>
+
+    <!-- Hero Headline -->
+    <text x="300" y="130" text-anchor="middle" fill="#ffffff" font-family="'Times New Roman', serif" font-size="24" letter-spacing="1">ARCHITECTURAL DIGITAL EXPERIENCE</text>
+    <text x="300" y="155" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">High-performance web applications engineered for modern conversions.</text>
+
+    <!-- Main CTA button -->
+    <rect x="230" y="175" width="140" height="32" rx="3" fill="#facc15"/>
+    <text x="300" y="195" text-anchor="middle" fill="#000000" font-family="sans-serif" font-weight="bold" font-size="11">GET STARTED →</text>
+
+    <!-- Feature Cards 3-columns -->
+    <g transform="translate(30, 235)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="165" height="95" rx="4" fill="#181922" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <circle cx="25" cy="25" r="10" fill="#facc15" fill-opacity="0.2"/>
+      <circle cx="25" cy="25" r="4" fill="#facc15"/>
+      <text x="20" y="55" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="11">High Velocity</text>
+      <text x="20" y="72" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="9">Sub-second loading times</text>
+
+      <!-- Card 2 -->
+      <rect x="187" y="0" width="165" height="95" rx="4" fill="#181922" stroke="#facc15" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="212" cy="25" r="10" fill="#facc15" fill-opacity="0.2"/>
+      <circle cx="212" cy="25" r="4" fill="#facc15"/>
+      <text x="207" y="55" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="11">Conversion Core</text>
+      <text x="207" y="72" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="9">Intuitive storytelling layout</text>
+
+      <!-- Card 3 -->
+      <rect x="375" y="0" width="165" height="95" rx="4" fill="#181922" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <circle cx="400" cy="25" r="10" fill="#facc15" fill-opacity="0.2"/>
+      <circle cx="400" cy="25" r="4" fill="#facc15"/>
+      <text x="395" y="55" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="11">Cloud Scalable</text>
+      <text x="395" y="72" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="9">Edge-native distribution</text>
+    </g>
+  </g>
+
+  <!-- Editorial Metadata -->
+  <text x="50" y="480" fill="rgba(255,255,255,0.5)" font-family="'Courier New', monospace" font-size="11" letter-spacing="2">DOC // 01: LANDING PAGE CAMPAIGN</text>
+  <text x="750" y="480" text-anchor="end" fill="#facc15" font-family="'Courier New', monospace" font-size="11">NEXT.JS // RESPONSIVE // CONVERSION DESIGN</text>
+</svg>
+
